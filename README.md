@@ -23,4 +23,4 @@ http://localhost:5173
 
 Gerar build de produção
 
-npm run build
+npm run builda
