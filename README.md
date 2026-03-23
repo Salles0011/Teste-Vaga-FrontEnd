@@ -7,7 +7,8 @@ cd Teste-Vaga-FrontEnd
 
 
 Instalar dependências
-npm installMostrar 
+npm install
+
 Rodar em ambiente de desenvolvimento
 npm run dev
 
