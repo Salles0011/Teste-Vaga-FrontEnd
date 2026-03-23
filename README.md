@@ -10,6 +10,7 @@ Instalar dependências
 npm install
 
 Rodar em ambiente de desenvolvimento
+
 npm run dev
 
 O projeto rodará em:
