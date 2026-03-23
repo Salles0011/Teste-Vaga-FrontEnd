@@ -11,5 +11,5 @@ npm run dev
 O projeto rodará em:
 http://localhost:5173
 
-Gerar build de produção
+Gerar build de produçãoa
 npm run build
