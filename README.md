@@ -7,13 +7,19 @@ cd Teste-Vaga-FrontEnd
 
 
 Instalar dependências
+
 npm install
 
+
 Rodar em ambiente de desenvolvimento
+
 npm run dev
 
+
 O projeto rodará em:
+
 http://localhost:5173
+
 
 Gerar build de produção
 
