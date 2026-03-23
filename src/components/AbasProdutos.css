@@ -1,0 +1,58 @@
+.abas-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+/* Estilo padrão das abas */
+.aba {
+  width: 214.16px;
+  height: 40px;
+
+  padding: 12px 58px;
+
+  background: #FFFFFF;           
+  border: 1px solid #BDBDBD;     
+  border-radius: 6px;
+
+  font-size: 16px;
+  font-weight: 600;
+  color: #3442B5;
+
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+/* Hover */
+.aba:hover {
+  background: #F3F5FF;
+  border-color: #3442B5;
+}
+
+/* Aba ativa */
+.aba.active {
+  background: #3442B5;
+  color: #FFFFFF;
+  border-color: #3442B5;
+}
+
+.abas-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.aba {
+  width: 214px;
+  height: 40px;
+  background: #fff;
+  border: 1px solid #bdbdbd;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #3442b5;
+  cursor: pointer;
+}

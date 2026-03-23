@@ -1,0 +1,37 @@
+.marcas-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 40px auto 80px auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* conforme especificação */
+}
+
+/* Cada círculo */
+.marca-item {
+  width: 211px;
+  height: 211px;
+
+  background: #FFFFFF;
+  border-radius: 105.5px; /* círculo perfeito */
+
+  padding: 87px 47px; /* conforme especificações */
+
+  box-shadow: 0px 7px 20px 0px #00000021;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 1;
+}
+
+/* A imagem logo.png dentro */
+.marca-item img {
+  width: 117px;              /* conforme especificação */
+  height: auto;
+  object-fit: contain;
+  opacity: 1;
+}

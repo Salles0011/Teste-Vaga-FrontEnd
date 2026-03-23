@@ -1,0 +1,80 @@
+.card-produto {
+  width: 304px;
+  height: 500px;
+
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 3px 19px 0px #00000038;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 20px;
+  gap: 10px;
+}
+
+/* Imagem do produto */
+.card-imagem {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Descrição */
+.descricao {
+  font-size: 14px;
+  color: #4f4f4f;
+  text-align: left;
+  width: 100%;
+}
+
+/* Preço antigo */
+.preco-antigo {
+  color: #828282;
+  text-decoration: line-through;
+  font-size: 14px;
+  width: 100%;
+  text-align: left;
+}
+
+/* Preço atual */
+.preco-atual {
+  font-size: 22px;
+  font-weight: 700;
+  color: #000000;
+  width: 100%;
+  text-align: left;
+}
+
+/* Parcelamento */
+.parcelamento {
+  font-size: 12px;
+  color: #333333;
+  width: 100%;
+  text-align: left;
+}
+
+/* Frete grátis */
+.frete-gratis {
+  font-size: 12px;
+  color: #2d9cdb;
+  text-decoration: underline;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+/* Botão comprar */
+.btn-comprar {
+  width: 100%;
+  background: #3442b5;
+  color: #ffffff;
+  padding: 12px 0;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: auto;
+}

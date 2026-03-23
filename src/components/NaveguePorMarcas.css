@@ -1,0 +1,19 @@
+.navegue-marcas {
+  width: 100%;
+  max-width: 1250px;
+
+  margin: 60px auto 40px auto;
+
+  background: transparent;     /* Fundo totalmente transparente */
+  color: #3442B5;               /* Texto azul como o restante */
+
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

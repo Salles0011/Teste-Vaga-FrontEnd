@@ -1,0 +1,385 @@
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff; /* FUNDO BRANCO GLOBAL */
+}
+
+body {
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: #ffffff; /* garante branco em toda a página */
+}
+
+
+
+/* HEADER */
+.header {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  font-family: Arial, sans-serif;
+}
+
+
+/* Linha superior */
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+
+.logo {
+  height: 28px;
+}
+
+/* Caixa de busca */
+.search-box {
+  display: flex;
+  align-items: center;
+  background: #f8f7f4;
+  border-radius: 8px;
+  padding: 8px 14px;
+  width: 420px;
+  gap: 10px;
+  border: 1px solid #eee;
+}
+
+.search-box input {
+  border: none;
+  background: transparent;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+  color: #555;
+}
+
+.icons {
+  display: flex;
+  gap: 18px;
+  color: #666;
+  cursor: pointer;
+}
+
+/* Menu inferior */
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 12px;
+  font-size: 13px;
+  color: #666;
+  border-top: 1px solid #f1f1f1;
+}
+
+.menu a {
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.menu a:hover {
+  color: #000;
+}
+
+.menu .active {
+  color: #4f46e5;
+  font-weight: 700;
+}
+
+/* Estilo do placeholder */
+.search-box input::placeholder {
+  width: 197px;
+  height: 21px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0;
+
+  color: #9F9F9F;
+  opacity: 1;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 24px;
+  padding: 30px 0;
+
+  flex-wrap: nowrap; /* Mantém horizontal */
+}
+
+.assinatura-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.coroa-icon {
+  width: 16px;
+  height: 16px;
+  opacity: 0.8;
+  filter: brightness(0.5);
+}
+
+.icon-img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.icon-img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+  width: 100%;
+  max-width: 1440px; /* largura do Figma */
+  height: 390px;     /* altura exata */
+
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 1;
+}
+
+/* Conteúdo sobre a imagem */
+.hero-content {
+  position: absolute;
+  top: 78px;   /* ajuste fino visual */
+  left: 81px;
+
+  width: 822px;
+}
+
+/* Título principal */
+.hero-content h1 {
+  font-family: Arial, sans-serif;
+  font-weight: 600;       /* SemiBold */
+  font-size: 48px;
+  line-height: 50px;
+  letter-spacing: 0;
+  color: #ffffff;
+  opacity: 1;
+  margin: 0 0 24px 0;
+}
+
+/* "50% Off nos produtos" */
+.hero-offer {
+  width: 343px;
+  height: 48px;
+
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #ffffff;
+  opacity: 1;
+  margin: 0;
+}
+
+/* "50% Off" */
+.hero-offer strong {
+  font-weight: 700;      
+  color: #FFD700;       
+}
+
+/* "nos produtos" */
+.hero-offer span {
+  font-weight: 400; /* Regular */
+}
+
+/* =========================
+   HERO BUTTON - VER PRODUTO
+========================= */
+
+.hero-button {
+  width: 206px;
+  height: 50px;
+
+  margin-top: 20px;
+
+  background: #F7CA11;        
+  border: none;
+  border-radius: 5px;
+
+  padding: 7px 49px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  opacity: 1;
+}
+
+/* Texto dentro do botão */
+.hero-button span {
+  width: 97px;
+  height: 24px;
+
+  font-family: Arial, sans-serif;
+  font-weight: 600;          
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+
+  color: #1f173a;           /* cor do texto */
+  opacity: 1;
+}
+
+.hero-button:hover {
+  filter: brightness(0.95);
+}
+
+
+.hero-button {
+  width: 206px;
+  height: 50px;
+  background: #f7ca11;
+  border-radius: 5px;
+  border: none;
+  padding: 7px 49px;
+  cursor: pointer;
+}
+
+.hero-button span {
+  font-weight: 600;
+  font-size: 16px;
+  color: #271c47;
+}
+
+/* =========================
+   BANNERS PARCEIROS
+========================= */
+
+.banners-parceiros {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 60px auto;
+  max-width: 1440px;
+}
+
+/* Card do banner */
+.banner-parceiro {
+  width: 634px;
+  height: 350px;
+
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+
+  background: transparent;
+}
+
+/* Imagem maior que o card */
+.banner-img {
+  position: absolute;
+
+  width: 831.71px;
+  height: 503px;
+
+  top: -45px;
+  left: -99.41px;
+
+  object-fit: cover;
+}
+
+/* Overlay escuro */
+
+.banner-parceiro::after {
+  background: transparent
+}
+
+
+/* Conteúdo */
+.banner-conteudo {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  z-index: 2;
+
+  color: #ffffff;
+}
+
+.banner-conteudo h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.banner-conteudo button {
+  background: #f7ca11;
+  color: #271c47;
+
+  border: none;
+  border-radius: 6px;
+
+  padding: 10px 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Título entre os banners */
+.banners-parceiros + .banners-parceiros::before {
+  content: "Navegue por marcas";
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 1250px;
+  height: 45px;
+
+  margin: 60px auto 40px auto;
+
+  background: #3442B5;
+  color: #ffffff;
+
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
+
+  border-radius: 4px;
+}
+
+
+html, body, #root {
+  background-color: #ffffff !important;
+}
+
+body {
+  background-color: #ffffff !important;
+}
+
+.card-produto {
+  background-color: #ffffff;
+}
+
+
