@@ -1,8 +1,9 @@
 Como instalar e rodar o projeto
+
 1. Clonar o repositório
 git clone https://github.com/Salles0011/Teste-Vaga-FrontEnd.git
 Depois entre na pasta:
-cd Teste-Vaga-FrontEndMostrar 
+cd Teste-Vaga-FrontEnd
 
 2. Instalar as dependências
 Certifique-se de ter o Node.js instalado.
